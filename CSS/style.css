@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Urbanist";
+    color: #242424;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL'0,
+  'wght' 500,
+  'GRAD' 50,
+  'opsz' 20;
+  color: #242424;
+  font-size: 32px;
+}
+
+
+body{
+    margin: auto;
+    background-color: #d7e8e2;
+}
+
+header{
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+.main-container{
+    max-width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-bottom: 20px;
+}
+
+#celcius-to-fahrenheit{
+    display: flex;
+    flex-direction: column;
+    align-items: center  ;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+#fahrenheit-to-celsius{
+    display: none;
+    flex-direction: column;
+    align-items: center  ;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.container-convert{
+    max-width: 90%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container-convert .icon{
+    font-size: 30px;
+    font-weight: bold;
+    color: #242424;
+    margin-top: 60px;
+}
+
+.icon #button-swap{
+    align-items: center;
+    border-style: none;
+    border-radius: 100px;
+    padding: 5px;
+    background-color: white;
+}
+
+.icon #button-swap:hover{
+    background-color:#dfdfdf ;
+}
+.icon #button-swap:active{
+    background-color: #ccc ;
+}
+
+.input-text{
+    font-size: 16px;
+}
+
+.input-text h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+input{
+    max-width: 100%;
+    width: 600px;
+    height: 60px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #fcfcfc;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.container-button{
+    align-self: start;
+    padding-left: 70px;
+
+}
+
+.container-button #button-convert{
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: #23c253;
+    margin-right: 5px;
+    border-style: none;
+    padding: 8px 20px;
+}
+
+.container-button #button-convert:hover {
+    background-color: #19b147;
+}
+
+.container-button #button-convert:active {
+    background-color: #0e8933;
+}
+
+.container-button #button-reset{
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: #f94444;
+    border-style: none;
+    padding: 8px 20px;
+}
+
+.container-button #button-reset:hover {
+    background-color: #ec3838;
+}
+
+.container-button #button-reset:active {
+    background-color: #ca1f1f;
+}
+
+.container-penjelasan{
+    align-self: start;
+    padding-left: 70px;
+}
+
+.penjelasan{
+    width: 100%;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 20px
+}
+
+#explainationInput{
+    margin-top:20px;
+    height: 50px;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: left;
+    border: none;
+}
+
+#explainationInputReverse{
+    margin-top:20px;
+    height: 50px;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: left;
+    border: none;
+    
+}
